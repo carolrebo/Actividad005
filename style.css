@@ -1,0 +1,52 @@
+html,body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-family: "verdana";
+}
+h1 {
+	font-size: 2.5rem;
+	font-weight: 100;
+}
+.contenedor {
+	top:20px,;
+	max-width: 860px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+.grilla3 {
+	width: 30%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+header {
+	text-align: center;
+	color: #fff;
+	background-color: #730993;
+	padding: 4em;
+}
+.foto {
+	width: 99%;
+}
+.clear {
+	clear: both;
+}
+.contenedorCajas {
+	padding-left: 5em;
+	padding-top: 5em;
+}
+.contenedorCajas.txt {
+	padding: 10px 5px;
+	text-align: center;
+}
+@media screen and (max-width: 480px) {
+	.grilla3 {
+		width: 100%;
+	}
+	.contenedorCajas.txt{
+		margin-bottom: 30px;
+	}
+}
